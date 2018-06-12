@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		16BF7CEE20CF49F9008BF4E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BF7CED20CF49F9008BF4E1 /* AppDelegate.swift */; };
-		16BF7CF020CF49F9008BF4E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BF7CEF20CF49F9008BF4E1 /* ViewController.swift */; };
 		16BF7CF320CF49F9008BF4E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16BF7CF120CF49F9008BF4E1 /* Main.storyboard */; };
 		16BF7CF620CF49F9008BF4E1 /* Baseball_Scorecard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16BF7CF420CF49F9008BF4E1 /* Baseball_Scorecard.xcdatamodeld */; };
 		16BF7CF820CF49FA008BF4E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16BF7CF720CF49FA008BF4E1 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		16BF7CEA20CF49F9008BF4E1 /* Baseball Scorecard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baseball Scorecard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16BF7CED20CF49F9008BF4E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		16BF7CEF20CF49F9008BF4E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		16BF7CF220CF49F9008BF4E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16BF7CF520CF49F9008BF4E1 /* Baseball_Scorecard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Baseball_Scorecard.xcdatamodel; sourceTree = "<group>"; };
 		16BF7CF720CF49FA008BF4E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,15 +54,54 @@
 		16BF7CEC20CF49F9008BF4E1 /* Baseball Scorecard */ = {
 			isa = PBXGroup;
 			children = (
-				16BF7CED20CF49F9008BF4E1 /* AppDelegate.swift */,
-				16BF7CEF20CF49F9008BF4E1 /* ViewController.swift */,
-				16BF7CF120CF49F9008BF4E1 /* Main.storyboard */,
-				16BF7CF720CF49FA008BF4E1 /* Assets.xcassets */,
-				16BF7CF920CF49FA008BF4E1 /* LaunchScreen.storyboard */,
-				16BF7CFC20CF49FA008BF4E1 /* Info.plist */,
+				16BF7D0620CF4A4E008BF4E1 /* Models */,
+				16BF7D0520CF4A40008BF4E1 /* Model Controllers */,
+				16BF7D0420CF4A38008BF4E1 /* View Controllers */,
+				16BF7D0320CF4A27008BF4E1 /* Storboards */,
+				16BF7D0220CF4A1D008BF4E1 /* Resources */,
 				16BF7CF420CF49F9008BF4E1 /* Baseball_Scorecard.xcdatamodeld */,
 			);
 			path = "Baseball Scorecard";
+			sourceTree = "<group>";
+		};
+		16BF7D0220CF4A1D008BF4E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16BF7CED20CF49F9008BF4E1 /* AppDelegate.swift */,
+				16BF7CF720CF49FA008BF4E1 /* Assets.xcassets */,
+				16BF7CFC20CF49FA008BF4E1 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		16BF7D0320CF4A27008BF4E1 /* Storboards */ = {
+			isa = PBXGroup;
+			children = (
+				16BF7CF120CF49F9008BF4E1 /* Main.storyboard */,
+				16BF7CF920CF49FA008BF4E1 /* LaunchScreen.storyboard */,
+			);
+			path = Storboards;
+			sourceTree = "<group>";
+		};
+		16BF7D0420CF4A38008BF4E1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		16BF7D0520CF4A40008BF4E1 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		16BF7D0620CF4A4E008BF4E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +175,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16BF7CF020CF49F9008BF4E1 /* ViewController.swift in Sources */,
 				16BF7CF620CF49F9008BF4E1 /* Baseball_Scorecard.xcdatamodeld in Sources */,
 				16BF7CEE20CF49F9008BF4E1 /* AppDelegate.swift in Sources */,
 			);
